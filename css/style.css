@@ -509,22 +509,35 @@ html {
     margin: 0px;
 }
 
+/*.introduction h1 {
+  margin-top: 17.5rem;
+  font-size: 3.125rem;
+  color: white;
+  text-align: center;
+  font-weight: 300;
+}*/
+
+/*.introduction h3 {
+  color: white;
+  text-align: center;
+  font-weight: 300;
+  margin-top: 1.25rem;
+  font-size: 1.563rem;
+}*/
+
+.introduction {
+  color: white;
+  font-weight: bold;
+  text-align: center;
+}
+
 .introduction h1 {
   margin-top: 17.5rem;
   font-size: 3.125rem;
 }
 
-.introduction h1 {
-  color: white;
-  text-align: center;
-  font-weight: 300;
-}
-
 .introduction h3 {
-  color: white;
-  text-align: center;
-  font-weight: 300;
-  margin-top: 1.25rem
+  margin-top: 1.25rem;
   font-size: 1.563rem;
 }
 
@@ -532,6 +545,8 @@ html {
   color: white;
   text-align: center;
   margin-top: 1.563rem;
+  font-weight: normal;
+
 }
 
 button {
@@ -544,5 +559,22 @@ button {
   color: white;
   font-size: 1.125rem;
 
+}
+
+.cases .devices {
+  width: 33.3333333%;
+  display: inline-block;
+  margin-right: -4px;
+  text-align: center;
+}
+
+
+.social {
+  text-align: center;
+}
+
+.social .icons > li {
+  border-radius: 40px;
+  display: inline-block;
 }
 
